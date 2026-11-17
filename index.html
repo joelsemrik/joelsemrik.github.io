@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joel Semrik · Portfolio</title>
+<meta name="description" content="Licensed Public Accountant building AI-powered tools that automate accounting, reconciliation and tax work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f8fa; --surface:#ffffff; --text:#14181f; --muted:#5b6472; --line:#e3e6eb;
+  --accent:#0f766e; --accent-soft:#e6f4f2; --metric:#0f766e;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1116; --surface:#161b22; --text:#e8ebef; --muted:#9aa4b2; --line:#262d36;
+    --accent:#2dd4bf; --accent-soft:#12302d; --metric:#2dd4bf;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+header{padding:72px 0 40px}
+.eyebrow{font:500 13px/1 "JetBrains Mono",monospace;color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
+h1{font-size:clamp(2.2rem,5vw,3.2rem);line-height:1.1;margin:14px 0 12px;letter-spacing:-.02em}
+.lead{font-size:1.15rem;color:var(--muted);max-width:680px;margin:0}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--text);text-decoration:none;font-weight:500;font-size:.95rem}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn.primary{color:#0e1116}}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:8px 0 56px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat b{display:block;font-size:1.6rem;color:var(--metric);letter-spacing:-.01em}
+.stat span{color:var(--muted);font-size:.9rem}
+h2{font-size:1.5rem;margin:0 0 6px;letter-spacing:-.01em}
+.section-sub{color:var(--muted);margin:0 0 24px}
+.project{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:28px;margin-bottom:24px}
+.project h3{margin:0 0 4px;font-size:1.3rem}
+.tagline{color:var(--muted);margin:0 0 18px}
+.psr{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-bottom:18px}
+.psr h4{margin:0 0 4px;font:500 12px/1 "JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+.psr p{margin:0;font-size:.97rem}
+.result{background:var(--accent-soft);border-radius:10px;padding:12px 14px;font-weight:500;margin-bottom:18px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.chip{font:500 12px/1 "JetBrains Mono",monospace;padding:6px 9px;border-radius:6px;border:1px solid var(--line);color:var(--muted)}
+.shots{display:grid;gap:12px}
+.shots.desktop{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.shots.phone{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.shots img{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);display:block}
+.note{font-size:.85rem;color:var(--muted);margin:12px 0 0}
+.small-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-bottom:56px}
+.small-grid .project{margin:0}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:56px}
+.skills div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.skills h4{margin:0 0 6px}
+.skills p{margin:0;color:var(--muted);font-size:.95rem}
+footer{border-top:1px solid var(--line);padding:32px 0 48px;color:var(--muted);font-size:.9rem}
+footer a{color:var(--accent)}
+section{margin-bottom:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Accounting · Finance Automation · AI</div>
+  <h1>Joel Semrik</h1>
+  <p class="lead">Licensed Public Accountant (CPCE Córdoba) with 3+ years of month-end close for US clients and Big 4 audit (EY). I build tools that automate the accounting work I know: reconciliations, cash flow tracking and tax reviews.</p>
+  <div class="links">
+    <a class="btn primary" href="https://linkedin.com/in/joelsemrik">LinkedIn</a>
+    <a class="btn" href="mailto:jsemriklaboral@gmail.com">Email me</a>
+    <a class="btn" href="https://github.com/joelsemrik">GitHub</a>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat"><b>4h → 30 min</b><span>per client tax review, with Claude Code skills</span></div>
+  <div class="stat"><b>4 web apps</b><span>for reconciliation, cash flow and bookkeeping</span></div>
+  <div class="stat"><b>3 US clients</b><span>closed monthly within 7 business days</span></div>
+  <div class="stat"><b>−60%</b><span>payroll journal entry prep time with Excel templates</span></div>
+</div>
+
+<section>
+  <h2>Projects</h2>
+  <p class="section-sub">Built for real clients. Screenshots use fictional demo data, and client names are anonymized.</p>
+
+  <article class="project">
+    <h3>MedConcilia: medical billing reconciliation</h3>
+    <p class="tagline">Built for my own clients, who are health professionals.</p>
+    <div class="psr">
+      <div><h4>Problem</h4><p>Clinics pay doctors through settlements that cover many consultations. Checking line by line that every consultation was actually paid is slow and easy to get wrong.</p></div>
+      <div><h4>Solution</h4><p>Upload the consultations and the clinic settlements (Excel). The app matches them, flags what is still unpaid, and scores how likely each pending item is to match.</p></div>
+      <div><h4>Analysis</h4><p>Dashboard showing reconciled vs. pending, total settled, average payment delay and average value per consultation, by insurer, with PDF reports.</p></div>
+    </div>
+    <div class="chips"><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Firebase</span><span class="chip">Gemini API</span><span class="chip">Recharts</span><span class="chip">Excel import</span><span class="chip">PDF export</span></div>
+    <p style="margin:0 0 18px"><a class="btn" href="https://github.com/joelsemrik/medconcilia-demo">View code on GitHub →</a></p>
+    <div class="shots desktop">
+      <img src="img/medconcilia-dashboard.jpg" alt="Reconciliation dashboard: 14 of 18 consultations reconciled, 4 pending, payment delay and average value by insurer" loading="lazy">
+      <img src="img/medconcilia-checks.jpg" alt="Pre-reconciliation checks listing pending consultations with match confidence" loading="lazy">
+    </div>
+  </article>
+
+  <article class="project">
+    <h3>Volts: cash flow app for an electrical services company</h3>
+    <p class="tagline">Mobile-first bookkeeping for a small business of independent electricians.</p>
+    <div class="psr">
+      <div><h4>Problem</h4><p>A small electrical business needed one place to track income, expenses and outstanding quotes, and a clear view of its real margin.</p></div>
+      <div><h4>Solution</h4><p>One-tap income entry, AI scanning and classification of expense receipts, PDF quotes, and payment reminders.</p></div>
+      <div><h4>Analysis</h4><p>Live cash flow: total income, expenses, net margin and receivables from issued quotes, with Excel export.</p></div>
+    </div>
+    <div class="chips"><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Gemini API (receipt OCR)</span><span class="chip">Firebase</span><span class="chip">jsPDF</span></div>
+    <p style="margin:0 0 18px"><a class="btn" href="https://github.com/joelsemrik/volts-demo">View code on GitHub →</a></p>
+    <div class="shots phone">
+      <img src="img/volts-cashflow.jpg" alt="Cash flow view: income, expenses, net balance and receivables" loading="lazy">
+      <img src="img/volts-income.jpg" alt="Income view with quick-entry buttons" loading="lazy">
+      <img src="img/volts-expenses.jpg" alt="Expenses view with AI receipt scanning" loading="lazy">
+      <img src="img/volts-quotes.jpg" alt="Quotes list with PDF export and payment status" loading="lazy">
+    </div>
+  </article>
+
+  <article class="project">
+    <h3>Tax automation with Claude Code</h3>
+    <p class="tagline">Custom Claude Code skills, plus an AI agent, for my Argentine tax practice.</p>
+    <div class="psr">
+      <div><h4>Problem</h4><p>Recurring client tax reviews (monotributo category checks, tax overviews across ARCA, Rentas Córdoba and municipal taxes) took about 4 hours per client by hand.</p></div>
+      <div><h4>Solution</h4><p>Claude Code skills that compare billing against category caps, project the next recategorization, calculate the monthly fee and raise alerts, plus build a client tax overview spreadsheet. "Caco" is an agent that adds client context and supports tax decisions.</p></div>
+      <div><h4>Approach</h4><p>The skills encode the rules and the agent carries the client context, so each review starts from a complete, consistent analysis.</p></div>
+    </div>
+    <div class="result">Result: each review went from about 4 hours to 30 minutes.</div>
+    <div class="chips"><span class="chip">Claude Code</span><span class="chip">AI agents</span><span class="chip">Excel</span><span class="chip">Argentine tax</span></div>
+  </article>
+</section>
+
+<section>
+  <div class="small-grid">
+    <article class="project">
+      <h3>Bookkeeping for a neighborhood food business</h3>
+      <p class="tagline" style="margin:0">A bookkeeping system that helps a small rotisserie owner keep clearer, up-to-date books. Built with Google AI Studio.</p>
+    </article>
+    <article class="project">
+      <h3>PsychoCare: practice management for psychologists</h3>
+      <p class="tagline" style="margin:0">Scheduling and finances for mental health professionals, with encrypted clinical records and Google Calendar, Drive and Gmail integration. React, TypeScript, Firebase.</p>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>What I bring</h2>
+  <p class="section-sub">Accounting depth first, then the tools to scale it.</p>
+  <div class="skills">
+    <div><h4>Accounting &amp; close</h4><p>Month-end close, GL, accruals, reconciliations, AP/AR, US GAAP, IFRS, audit support (EY)</p></div>
+    <div><h4>Reporting &amp; analysis</h4><p>P&amp;L, balance sheet, cash flow, budget vs. actuals and variance analysis for CFOs</p></div>
+    <div><h4>Systems</h4><p>NetSuite, QuickBooks Online, Xero, SAP, Odoo, Bill.com, Ramp, advanced Excel and Power Query</p></div>
+    <div><h4>Automation &amp; AI</h4><p>Claude Code, AI agents, Google AI Studio (Gemini), React and TypeScript web apps</p></div>
+  </div>
+</section>
+
+<footer>
+  Joel Semrik · Córdoba, Argentina · Open to remote roles in FP&amp;A, accounting and finance automation ·
+  <a href="https://linkedin.com/in/joelsemrik">LinkedIn</a> · <a href="mailto:jsemriklaboral@gmail.com">jsemriklaboral@gmail.com</a>
+</footer>
+
+</div>
+</body>
+</html>
